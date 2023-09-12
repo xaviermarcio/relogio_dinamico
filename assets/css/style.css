@@ -27,6 +27,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 10px;
     height: 200px;
     width: 550px;
     background-color:var(--color-green);
@@ -55,4 +56,30 @@ body{
 
 .relogio span.tempo{
     font-size: 10px;
+}
+
+/*Responsavidade*/
+
+@media screen and (max-width: 670px){
+
+    .relogio{
+        display: flex ;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        width: 350px;
+       
+    }
+}
+
+@media screen and (max-width: 450px){
+
+    .relogio{
+        display: flex ;
+        flex-direction: column;
+        justify-content: space-around;
+        height: auto;
+        width: 250px;
+       
+    }
 }
