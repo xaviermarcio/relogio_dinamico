@@ -22,6 +22,27 @@ body {
     justify-content: center;
 }
 
+.saudacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8vw; 
+    color: var(--color-white);
+    background: var(--color-dark2);
+    box-shadow: var(--color-white);
+    border-radius: 7px;
+    letter-spacing: 3px;
+    padding: 10px;
+    text-align: center;
+    width: 90%; 
+    max-width: 550px; 
+    position: absolute;
+    top: 15px; 
+    left: 50%;
+    transform: translateX(-50%); 
+}
+
+
 .relogio {
     display: flex;
     align-items: center;

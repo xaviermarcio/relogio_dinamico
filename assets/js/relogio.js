@@ -14,4 +14,14 @@ const relogio = setInterval(function time(){
     horas.textContent = hour;
     minutos.textContent = minutes;
     segundos.textContent = seconds; 
+
+    //Verificar o horário e exibir uma mensagem de saudação de acordo com o horário
+
+    if(hour >= 6 && hour <12){
+        saudacao.textContent = "Bom dia!";
+    } else if (hour >= 12 && hour < 18){
+        saudacao.textContent = "Boa tarde!";
+    } else{
+        saudacao.textContent = "Boa noite!";
+    }
 });
