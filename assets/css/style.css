@@ -23,6 +23,12 @@ body{
     justify-content: center;
 }
 
+.welcome{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .relogio{
     display: flex;
     align-items: center;
